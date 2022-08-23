@@ -1,0 +1,10 @@
+/*Footer*/
+
+footer .contenedor{
+    background-color: rgb(10, 10, 10);
+    height: 150px;
+}
+
+footer .contenedor h1{
+    color: white;
+}

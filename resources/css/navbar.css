@@ -1,0 +1,80 @@
+/*Barra de navegación*/
+
+header .contenedor{
+    margin-top: 65px;
+    width: 100%;
+    height: 350px;
+    background: #312783;
+    box-shadow: 0px 0px 6px 4px rgb(0, 0, 0);
+}
+
+header .contenedor .texto{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .contenedor .texto h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+header .activado{
+    background: #261e66;
+    color: #e94e1b;
+    border-radius: 15px;
+}
+
+/*Nav-bar fixed*/
+header .navbar_fixed{
+    width: 100%;
+    height: 70px;
+    background: #312783;
+    position: fixed;
+    top: 0;
+}
+
+header .navbar_fixed  .logo{
+    width: 100px;
+    margin-top: 6px;
+    transition: all 300ms;
+}
+
+header .navbar_fixed nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+header .navbar_fixed nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin-right: 10px;
+}
+
+header .navbar_fixed nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    padding: 15px;
+    margin-right: 5px;
+    border-radius: 5px;
+    transition: all 150ms;
+}
+
+header .navbar_fixed nav ul li a:hover{
+    background: #261e66;
+    color: #e94e1b;
+    border-radius: 15px;
+}
+
+header .navbar_fixed  .logo:hover{
+    transform: scale(1.1);
+}

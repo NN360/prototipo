@@ -1,0 +1,2 @@
+
+<?php echo $__env->make('molde_header', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\Users\Jose Chevez\Documents\Hackathon 2022\prototipo-1\resources\views/galeria.blade.php ENDPATH**/ ?>
